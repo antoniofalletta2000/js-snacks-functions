@@ -8,7 +8,7 @@ e buonasera se è sera (oltre le 17)
 const name = 'Mario';
 
 // Dichiara la funzione qui.
-/* function goodGenerator (name){
+/* function goodGenerator (word){
     let saluto
     const currentTime = new Date().getHours()
     if(currentTime<=13){
@@ -18,10 +18,10 @@ const name = 'Mario';
     }else{
         saluto="Buonasera"
     }
-    const goodName = (saluto+ " "+name)
+    const goodName = (saluto+ " "+word)
     return goodName
 } */
-const goodGenerator =(name)=>{
+const goodGenerator =(word)=>{
      let saluto
     const currentTime = new Date().getHours()
     if(currentTime<=13){                                                       //with sintax arrow function
@@ -31,7 +31,7 @@ const goodGenerator =(name)=>{
     }else{
         saluto="Buonasera"
     }
-    const goodName = (saluto+ " "+name)
+    const goodName = (saluto+ " "+word)
     return goodName
 }
 

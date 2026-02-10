@@ -4,18 +4,18 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-/* function firstChar (names){
+/* function firstChar (arr){
     const newArray = []
-    for (let i=0; i<names.length;i++){               //with normal sintax function
-        newArray.push(names[i].charAt(0))
+    for (let i=0; i<arr.length;i++){               //with normal sintax function
+        newArray.push(arr[i].charAt(0))
     }
     return newArray
 } */
 
-const firstChar = (names) =>{
+const firstChar = (arr) =>{
      const newArray = []
-    for (let i=0; i<names.length;i++){             //with sintax arrow function
-        newArray.push(names[i].charAt(0))
+    for (let i=0; i<arr.length;i++){             //with sintax arrow function
+        newArray.push(arr[i].charAt(0))
     }
     return newArray
 } 

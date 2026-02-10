@@ -9,8 +9,8 @@ const vowelsArray = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
     let foundVowels = []
     for (i = 0; i < word.length; i++) {
         const char = word[i]
-        for (j = 0; j < vowelsArray.length; j++) {                     ////with normal sintax function and with two for cicle
-            const vowels = vowelsArray[j]
+        for (j = 0; j < arr.length; j++) {                     ////with normal sintax function and with two for cicle
+            const vowels = arr[j]
             if (char === vowels) {
                 foundVowels.push(char)
             }
@@ -26,7 +26,7 @@ const vowelsArray = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 /* function vowelsString(word) {
     let foundVowels = []
     for (const char of word) {
-        for (const vowel of vowelsArray) {                              //with normal sintax function and with two for..of            
+        for (const vowel of arr) {                              //with normal sintax function and with two for..of            
             if (char === vowel) {                                          DOCUMENTATOMI SU INTERNET HO LETTO CHE C'E' ANCHE
                 foundVowels.push(char)                                      QUESTA ALTERNATIVA
             }
@@ -40,8 +40,8 @@ const vowelsString = (word) => {
     let foundVowels = []
     for (i = 0; i < word.length; i++) {
         const char = word[i]
-        for (j = 0; j < vowelsArray.length; j++) {                       //with sintax arrow function
-            const vowels = vowelsArray[j]
+        for (j = 0; j < arr.length; j++) {                       //with sintax arrow function
+            const vowels = arr[j]
             if (char === vowels) {
                 foundVowels.push(char)
             }
