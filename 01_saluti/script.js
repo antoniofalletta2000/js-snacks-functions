@@ -19,4 +19,4 @@ const concatenation=()=>{
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
 /* console.log(concatenation("Mario")); */
-    console.log(concatenation("Mario"));
+    
